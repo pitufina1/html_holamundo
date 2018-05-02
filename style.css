@@ -1,0 +1,48 @@
+/* Seleccion por etiqueta */
+h1 {
+    color:blue;
+    background-color:yellow;
+}
+
+
+
+/* Seleccion por id */
+
+#tres {
+    color:green;
+}
+
+#cuatro {
+    font-size:larger;
+}
+
+/* Seleccion por clase */
+.cabecera {
+    color:red;
+}
+
+.destacado {
+    font-weight:bold;
+}
+
+header > #logo {
+    margin-left: 30px;
+}
+
+.container > .row > .col:nth-child(1) {
+    background-color:yellow;
+}
+
+.container > .row > .col:nth-child(2) {
+    font-size:20px;
+}
+
+.container > .row > .col:nth-child(4) {
+    color:blue;
+    text-align:center;
+    background-color: lightblue;
+}
+
+.container > .row > .col:nth-child(2)   img {
+    padding:222px;
+}
